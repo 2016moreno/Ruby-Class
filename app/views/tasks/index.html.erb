@@ -1,6 +1,12 @@
 <p id="notice"><%= notice %></p>
+<tr>
+    <a href="https://pure-ridge-95976.herokuapp.com/tasks">View All -</a>
+    <a href="https://pure-ridge-95976.herokuapp.com/tasks?completed=true"> View Complete -</a>
+    <a href="https://pure-ridge-95976.herokuapp.com/tasks?completed=false"> View Incomplete</a>
+<tr>
 
 <%if @filter == "completed"%>
+    
     <h1>Completed Tasks</h1>
 <%elsif @filter == "incomplete"%>
     <h1>Incomplete Tasks</h1>
@@ -13,6 +19,7 @@
 
 <table>
   <thead>
+    
     <tr>
       <th>Description</th>
       <th>Completed</th>
