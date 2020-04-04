@@ -1,17 +1,14 @@
-<html>
-    <head>
-        <title>You will be redirected soon...</title>
-        <meta http-equiv="Refresh" content="1: url=https://pure-ridge-95976.herokuapp.com/">
-    </head>
-<html>
-
 <p id="notice"><%= notice %></p>
+
+<body bgcolor="#ff3333">
 <tr>
     <a href="https://pure-ridge-95976.herokuapp.com/tasks">View All -</a>
     <a href="https://pure-ridge-95976.herokuapp.com/tasks?completed=true"> View Complete -</a>
     <a href="https://pure-ridge-95976.herokuapp.com/tasks?completed=false"> View Incomplete</a>
 <tr>
 
+    
+ 
 <%if @filter == "completed"%>
     
     <h1>Completed Tasks</h1>
@@ -46,7 +43,10 @@
     <% end %>
   </tbody>
 </table>
+</body>
 
 <br>
 
+
 <%= link_to 'New Task', new_task_path %>
+    
