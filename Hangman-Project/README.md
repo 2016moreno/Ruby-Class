@@ -1,3 +1,4 @@
+Assignment was not made by me! Also working website here - https://lit-taiga-27162.herokuapp.com/new
 Hangperson: a scaffolded (!) ESaaS getting-started assignment
 =============================================================
 
@@ -6,10 +7,6 @@ Hangperson: a scaffolded (!) ESaaS getting-started assignment
 (refinements by Armando Fox September 2017)
 
 In this assignment you'll be introduced to part of the basic cycle of creating SaaS in a disciplined way.
-
-**NOTE: Do not clone this repo to your workspace. Fork it first, then clone your fork.**
-
-
 
 Learning Goals
 --------------
