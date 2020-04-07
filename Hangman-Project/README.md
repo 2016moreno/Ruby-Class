@@ -1,4 +1,5 @@
-Assignment was not made by me! Also working website here - https://lit-taiga-27162.herokuapp.com/new
+Assignment was not made by me, but developed the code to help make the website work. 
+Working website here - https://lit-taiga-27162.herokuapp.com/new
 
 
 Hangperson: a scaffolded (!) ESaaS getting-started assignment
